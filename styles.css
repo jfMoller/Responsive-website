@@ -64,15 +64,6 @@ nav a:hover {
     background-color: rgba(165, 202, 216, 0.1);
     border-radius: 15px;
     position: relative;
-    animation-name: dip;
-    animation-duration: 0s;  
-    animation-delay: 0s;
-    animation-fill-mode: both;
-  }
-
-  @keyframes dip {
-    from {top: 0px;}
-    to {top: -1px;}
   }
 
 main {
@@ -85,6 +76,22 @@ section {
   margin: 2rem 5rem;
   border-radius: 15px;
   padding: 2rem;
+}
+
+.four-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  
+}
+
+section img {
+margin: 20px;
+max-height: 200px;
+height: auto;
+box-shadow: 2px 3px 2px rgb(165, 202, 216);
 }
 
 footer {
@@ -120,4 +127,17 @@ footer {
     width: 80%;
     height: auto;
   }
+ 
+
 }
+
+/* @media all and (max-width: 1150px) {
+  .four-images {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  }
+} */

@@ -82,14 +82,13 @@ section {
 }
 
 .grid-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .grid-image {
-
+padding-left: 1rem;
+padding-right: 1rem;
 }
 
 section img {
